@@ -51,7 +51,7 @@ async def get_video(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("❌ Bunday kodli video topilmadi.")
 
 if __name__ == "__main__":
-    app = ApplicationBuilder().token(BOT_TOKEN).build()
+    app = ApplicationBuilder().token(8171012194:AAFU2F55ZyOkaQuTj21CU4wnHRf20k6dXFI).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("save", save_video))
     app.add_handler(CommandHandler("get", get_video))
